@@ -20,7 +20,7 @@ export default function StorySection({ stories }: { stories: Story[] }) {
       description: "Suara gemuruh air yang jatuh di antara tebing batu memberikan ketenangan yang luar biasa. Salah satu permata tersembunyi yang pernah saya kunjungi.",
       location: "Curug Penganten",
       date: new Date("2025-05-12"),
-      imageUrl: "/gallery/dasd.png"
+      imageUrl: "/gallery/image copy 2.png"
     },
     {
       id: "2",
@@ -28,7 +28,7 @@ export default function StorySection({ stories }: { stories: Story[] }) {
       description: "Bau belerang dan uap panas yang membubung tinggi mengingatkan kita betapa kuatnya energi alam semesta ini.",
       location: "Kawah Candradimuka",
       date: new Date("2025-07-20"),
-      imageUrl: "/gallery/dasdzsa.png"
+      imageUrl: "/gallery/image copy 3.png"
     },
     {
       id: "3",
@@ -36,7 +36,7 @@ export default function StorySection({ stories }: { stories: Story[] }) {
       description: "Menyaksikan matahari terbit di ufuk timur Bromo adalah pengalaman spiritual yang sulit dilupakan dengan kata-kata.",
       location: "Gunung Bromo",
       date: new Date("2025-09-05"),
-      imageUrl: "/gallery/oiweoia.png"
+      imageUrl: "/gallery/image copy 4.png"
     },
     {
       id: "4",
@@ -44,7 +44,7 @@ export default function StorySection({ stories }: { stories: Story[] }) {
       description: "Warna langit yang berubah menjadi jingga keunguan di puncak bukit ini adalah hadiah terbaik setelah pendakian yang melelahkan.",
       location: "Bukit Jokolangan",
       date: new Date("2025-11-15"),
-      imageUrl: "/gallery/owoiq.png"
+      imageUrl: "/gallery/image copy 5.png"
     },
     {
       id: "5",
@@ -52,7 +52,7 @@ export default function StorySection({ stories }: { stories: Story[] }) {
       description: "Berdiri di tepi tebing Bukit Cumbri serasa berada di atas awan. Angin yang berhembus kencang membawa sejuta cerita.",
       location: "Bukit Cumbri",
       date: new Date("2026-02-10"),
-      imageUrl: "/gallery/powoq.png"
+      imageUrl: "/gallery/image copy 6.png"
     },
     {
       id: "6",
@@ -60,7 +60,7 @@ export default function StorySection({ stories }: { stories: Story[] }) {
       description: "Menelusuri setiap jengkal keindahan Cumbri dari sisi yang berbeda, menemukan sudut pandang baru dalam setiap langkah.",
       location: "Cumbri Gunung",
       date: new Date("2026-03-22"),
-      imageUrl: "/gallery/powp.png"
+      imageUrl: "/gallery/image copy 7.png"
     },
     {
       id: "7",
@@ -68,7 +68,7 @@ export default function StorySection({ stories }: { stories: Story[] }) {
       description: "Mendaki Lawu bukan sekadar fisik, tapi juga tentang menghargai kearifan lokal dan sejarah yang tertanam di setiap jalurnya.",
       location: "Gunung Lawu",
       date: new Date("2026-04-18"),
-      imageUrl: "/gallery/sdkoaodoa.png"
+      imageUrl: "/gallery/image copy 8.png"
     }
   ];
 

@@ -4,14 +4,17 @@ import { motion } from "framer-motion";
 
 export default function Gallery() {
   const images = [
-    "/gallery/dasd.png",
-    "/gallery/dasdzsa.png",
-    "/gallery/oiweoia.png",
-    "/gallery/owoiq.png",
-    "/gallery/powoq.png",
-    "/gallery/powp.png",
-    "/gallery/sdkoaodoa.png",
-    "/gallery/sokadoa.png",
+    "/gallery/image.png",
+    "/gallery/image copy.png",
+    "/gallery/image copy 2.png",
+    "/gallery/image copy 3.png",
+    "/gallery/image copy 4.png",
+    "/gallery/image copy 5.png",
+    "/gallery/image copy 6.png",
+    "/gallery/image copy 7.png",
+    "/gallery/image copy 8.png",
+    "/gallery/image copy 9.png",
+    "/gallery/image copy 10.png",
   ];
 
   return (
