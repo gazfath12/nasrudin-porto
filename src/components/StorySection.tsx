@@ -16,27 +16,59 @@ export default function StorySection({ stories }: { stories: Story[] }) {
   const displayStories = stories.length > 0 ? stories : [
     {
       id: "1",
-      title: "Menyapa Pagi di Plawangan",
-      description: "Angin malam di Sembalun menusuk hingga ke tulang, tapi pemandangan lautan bintang di atas sana membuat semuanya sepadan. Seduh kopi pertama di ketinggian selalu terasa berbeda.",
-      location: "Gn. Rinjani",
-      date: new Date("2025-08-15"),
-      imageUrl: "/gallery/oiweoia.png"
+      title: "Pesona Mistis Curug Penganten",
+      description: "Suara gemuruh air yang jatuh di antara tebing batu memberikan ketenangan yang luar biasa. Salah satu permata tersembunyi yang pernah saya kunjungi.",
+      location: "Curug Penganten",
+      date: new Date("2025-05-12"),
+      imageUrl: "/gallery/dasd.png"
     },
     {
       id: "2",
-      title: "Tersesat Sengaja di Lebatnya Hijau",
-      description: "Jalur ini jarang dilalui orang. Kanopi pohon yang rapat membuat cahaya matahari hanya masuk dari celah kecil. Sunyi, tenang, dan penuh dengan aroma tanah basah.",
-      location: "Hutan Lumut",
-      date: new Date("2025-10-10"),
-      imageUrl: "/gallery/powoq.png"
+      title: "Nafas Bumi di Kawah Candradimuka",
+      description: "Bau belerang dan uap panas yang membubung tinggi mengingatkan kita betapa kuatnya energi alam semesta ini.",
+      location: "Kawah Candradimuka",
+      date: new Date("2025-07-20"),
+      imageUrl: "/gallery/dasdzsa.png"
     },
     {
       id: "3",
-      title: "Sabana Tanpa Batas",
-      description: "Hamparan rumput hijau sejauh mata memandang. Kami mendirikan tenda, membuka bekal seadanya, dan membiarkan waktu berjalan lebih lambat dari biasanya di kota.",
-      location: "Gn. Merbabu",
-      date: new Date("2026-01-20"),
-      imageUrl: "/gallery/sokadoa.png"
+      title: "Lautan Pasir Gunung Bromo",
+      description: "Menyaksikan matahari terbit di ufuk timur Bromo adalah pengalaman spiritual yang sulit dilupakan dengan kata-kata.",
+      location: "Gunung Bromo",
+      date: new Date("2025-09-05"),
+      imageUrl: "/gallery/oiweoia.png"
+    },
+    {
+      id: "4",
+      title: "Senja di Bukit Jokolangan",
+      description: "Warna langit yang berubah menjadi jingga keunguan di puncak bukit ini adalah hadiah terbaik setelah pendakian yang melelahkan.",
+      location: "Bukit Jokolangan",
+      date: new Date("2025-11-15"),
+      imageUrl: "/gallery/owoiq.png"
+    },
+    {
+      id: "5",
+      title: "Negeri di Atas Awan Bukit Cumbri",
+      description: "Berdiri di tepi tebing Bukit Cumbri serasa berada di atas awan. Angin yang berhembus kencang membawa sejuta cerita.",
+      location: "Bukit Cumbri",
+      date: new Date("2026-02-10"),
+      imageUrl: "/gallery/powoq.png"
+    },
+    {
+      id: "6",
+      title: "Eksplorasi Cumbri Gunung",
+      description: "Menelusuri setiap jengkal keindahan Cumbri dari sisi yang berbeda, menemukan sudut pandang baru dalam setiap langkah.",
+      location: "Cumbri Gunung",
+      date: new Date("2026-03-22"),
+      imageUrl: "/gallery/powp.png"
+    },
+    {
+      id: "7",
+      title: "Atap Jawa Tengah: Gunung Lawu",
+      description: "Mendaki Lawu bukan sekadar fisik, tapi juga tentang menghargai kearifan lokal dan sejarah yang tertanam di setiap jalurnya.",
+      location: "Gunung Lawu",
+      date: new Date("2026-04-18"),
+      imageUrl: "/gallery/sdkoaodoa.png"
     }
   ];
 
