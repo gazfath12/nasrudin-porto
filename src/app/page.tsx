@@ -7,10 +7,15 @@ import Footer from "@/components/Footer";
 import { prisma } from "@/lib/prisma";
 
 export default async function Home() {
-  // Fetch stories from database, ordered by date descending
-  const stories = await prisma.story.findMany({
-    orderBy: { date: 'desc' },
-  });
+  let stories = [];
+  try {
+    // Fetch stories from database, ordered by date descending
+    stories = await prisma.story.findMany({
+      orderBy: { date: 'desc' },
+    });
+  } catch (error) {
+    console.error("Database fetch failed, using empty stories for now:", error);
+  }
 
   return (
     <main className="min-h-screen">
